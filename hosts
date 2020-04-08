@@ -1,0 +1,10 @@
+[windows]
+## These are the activedirectory servers
+ad1.667f.internal ssh_host=ad1.667f.example.opentlc.com ansible_password=jVMijRwLbI02gFCo2xkjlZ9lxEA7bm7zgg==
+
+[windows:vars]
+ansible_connection=winrm
+ansible_user=Administrator
+ansible_winrm_server_cert_validation=ignore
+ansible_become=false
+
